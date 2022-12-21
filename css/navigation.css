@@ -1,0 +1,51 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Roboto;
+}
+.menus {
+    position: fixed;
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    background-color: yellow;
+    height: 60px;
+    width: calc(min(100%, 1200px));
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.icon {
+    font-size:28px !important;
+    cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+}
+
+.menu {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    gap: 15px;
+    align-items: center;
+}
+
+.menu:hover,
+.menu:hover .icon {
+    -webkit-text-fill-color: red;
+}
+
+.logoNavigation {
+    width: 50px;
+}
+
+.selected {
+    text-decoration: underline;
+    color: red;
+}

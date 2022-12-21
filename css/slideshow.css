@@ -1,0 +1,18 @@
+.fading {
+    animation: fading 8s infinite
+}
+@keyframes fading {
+    0% {opacity: 0}
+    20% {opacity: 1}
+    80% {opacity: 1}
+    100% {opacity: 0}
+}
+.slideshow {
+    margin:auto
+}
+.slide {
+    width: 500px;
+    border-radius: 24px;
+    margin-top: 130px;
+    margin-left: 700px;
+}
